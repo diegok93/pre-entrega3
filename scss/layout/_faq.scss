@@ -1,0 +1,21 @@
+.faq {
+    margin: 10px 0px 20px 40px;
+    padding: 15px 15px 15px 25px;
+    width: 800px;
+    height: 400px;
+    border: 1px solid rgba(26, 26, 26, 0.671); /*tamaño, estado, color */
+    border-style:solid;
+    border-radius: 0px 0px 50px 0px;
+    p{
+        margin: 20px;
+    }
+    li{
+    list-style: none;
+    text-align: justify;
+    padding: 2px;
+        a{
+            text-decoration: none;
+    color: rgb(8, 0, 126);
+        }
+    }
+}

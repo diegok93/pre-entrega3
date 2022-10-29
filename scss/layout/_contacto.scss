@@ -1,0 +1,25 @@
+form{
+    margin-left: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+fieldset{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    padding: 10px;
+    width: 350px;
+    margin: 10px;
+}
+
+label{
+    padding-left: 15px;
+}
+
+/*Pseudo class elements*/
+input:focus{ 
+    background-color: lightblue;
+}
+
+textarea:focus{ 
+    background-color: lightblue;
+}

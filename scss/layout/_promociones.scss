@@ -1,0 +1,37 @@
+.promos {
+    margin: 10px 0px 20px 40px;
+    width: 300px;
+    height: 500px;
+    border: 1px solid rgba(26, 26, 26, 0.671); /*tamaño, estado, color */
+    border-style:solid;
+    border-radius: 0px 0px 50px 0px;
+    text-align: center;
+    img{
+        width: 250px;
+        height: 250px;
+    }
+    h2{
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+    h3{
+        padding-top: 10px;
+    }
+    p{
+        padding-top: 20px;
+    }
+    a{
+        color: green;
+        font-family: 'Reem Kufi Fun', sans-serif;
+        font-weight: bold;
+    }
+}
+
+
+.cart {
+    img{
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+}
