@@ -38,13 +38,14 @@ header div img {
   margin-top: 5px; }
 
 main article {
-  margin: 10px 0px 20px 40px;
+  /*defino las 3 variables*/
   width: 600px;
   height: 300px;
+  border-radius: 0px 0px 50px 0px;
+  margin: 10px 0px 20px 40px;
   border: 1px solid rgba(26, 26, 26, 0.671);
   /*tamaño, estado, color */
-  border-style: solid;
-  border-radius: 0px 0px 50px 0px; }
+  border-style: solid; }
 
 .contFlex {
   display: flex;
@@ -62,19 +63,24 @@ main article {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: 65px 300px auto 30px;
   grid-template-areas: "header" "aside"  "main" "footer";
-  gap: 10px; }
+  gap: 10px;
+  background-color: white; }
 
 header {
-  grid-area: header; }
+  grid-area: header;
+  background-color: white; }
 
 aside {
-  grid-area: aside; }
+  grid-area: aside;
+  background-color: white; }
 
 main {
-  grid-area: main; }
+  grid-area: main;
+  background-color: white; }
 
 footer {
-  grid-area: footer; }
+  grid-area: footer;
+  background-color: white; }
 
 /*Generales*/
 p {

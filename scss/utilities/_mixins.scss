@@ -1,0 +1,5 @@
+@mixin medidas-card ($width,$height,$radius) { /*defino las 3 variables*/
+    width: $width;
+    height: $height;
+    border-radius: 0px 0px $radius 0px;
+}

@@ -1,11 +1,9 @@
 main {
     article{
+        @include medidas-card (600px,300px,50px);
     margin: 10px 0px 20px 40px;
-    width: 600px;
-    height: 300px;
     border: 1px solid rgba(26, 26, 26, 0.671); /*tamaño, estado, color */
     border-style:solid;
-    border-radius: 0px 0px 50px 0px;
     }
 }
 
@@ -34,23 +32,28 @@ main {
     "footer"
     ;
     gap: 10px;
+    background-color: $background-principal;
 
 }
 
 header{
     grid-area: header;
+    background-color: $background-principal;
 }
 
 aside{
     grid-area: aside;
+    background-color: $background-principal;
 }
 
 main{
     grid-area: main;
+    background-color: $background-principal;
 }
 
 footer{
-    grid-area: footer; 
+    grid-area: footer;
+    background-color: $background-principal;
 }
 
 
